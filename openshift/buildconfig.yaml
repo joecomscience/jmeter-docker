@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: BuildConfig
+metadata:
+  labels:
+    build: jmeter-docker
+  name: jmeter-docker
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: jmeter-docker:latest
+  resources:
+    limits:
+      cpu: 512m
+      memory: 512Mi
+    requests:
+      cpu: 128m
+      memory: 128Mi
+  runPolicy: Serial
+  source:
+    git:
+      uri: https://github.com/joecomscience/jmeter-docker
+    sourceSecret:
+      name: github-secret
+    type: Git
+  strategy:
+      from:
+        kind: ImageStreamTag
+        name: jmeter-docker:latest
+    type: Source
