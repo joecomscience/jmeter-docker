@@ -2,4 +2,4 @@
 
 set -e
 
-jmeter -n -t $(pwd)/test/PerfectAdviceUAT.jmx -l $(pwd)test/testresults.jtl
+jmeter -n -t tests/PerfectAdviceUAT.jmx -l tests/results.jtl

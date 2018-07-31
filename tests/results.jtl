@@ -1,0 +1,18 @@
+1533020373604,947,1.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,10649,573,1,1,587,0,456
+1533020374587,274,2.Click to signin with id,500,Internal Server Error,Thread Group 1-1,text,false,,2757,245,1,1,274,0,221
+1533020374867,4,3.Login Keycloak,Non HTTP response code: java.net.UnknownHostException,"Non HTTP response message: preprodapsso.axa-tech.com: nodename nor servname provided, or not known",Thread Group 1-1,text,false,,2193,0,1,1,0,0,4
+1533020374874,1454,4.Authorize to PerfectAdvice,400,Bad Request,Thread Group 1-1,text,false,,370,285,1,1,1452,0,1167
+1533020376330,818,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,264,0,219
+1533020377274,225,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,52,0,0
+1533020377500,265,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,42,0,0
+1533020377772,226,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,41,0,0
+1533020377999,223,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,42,0,0
+1533020378223,173,1.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,10304,1869,1,1,41,0,0
+1533020378400,144,2.Click to signin with id,500,Internal Server Error,Thread Group 1-1,text,false,,2652,320,1,1,144,0,98
+1533020378548,1,3.Login Keycloak,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: preprodapsso.axa-tech.com,Thread Group 1-1,text,false,,1941,0,1,1,0,0,1
+1533020378552,841,4.Authorize to PerfectAdvice,400,Bad Request,Thread Group 1-1,text,false,,370,285,1,1,840,0,526
+1533020379393,1114,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,348,0,262
+1533020380508,261,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,44,0,0
+1533020380771,236,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,44,0,0
+1533020381008,288,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,57,0,0
+1533020381298,267,5.Call Genesis URL,200,OK,Thread Group 1-1,text,true,,69618,3190,1,1,48,0,0

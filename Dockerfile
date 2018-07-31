@@ -5,6 +5,7 @@ LABEL maintainer="joewalker<joeteerawit@gmail.com>"
 ARG TZ="Asia/Bangkok"
 ENV HEAP="-Xms512m -Xmx512m -XX:MaxMetaspaceSize=256m"
 ENV DISPLAY=":0.0"
+ENV JMeterHome=/opt/apache-jmeter/bin
 
 RUN apk update --no-cache && \
     apk upgrade --no-cache && \
@@ -18,11 +19,11 @@ RUN apk update --no-cache && \
     rm /home/apache-jmeter-4.0.tgz && \
     mkdir -p /jmeter
 
-ENV PATH=$PATH:/opt/apache-jmeter/bin
+ENV PATH=$PATH:$JMeterHome
 
 WORKDIR jmeter
 COPY . .
 
 RUN chmod +x run.sh
 
-ENTRYPOINT [ "/run.sh" ]
+ENTRYPOINT [ "/jmeter/run.sh" ]
